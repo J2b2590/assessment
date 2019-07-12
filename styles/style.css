@@ -1,0 +1,80 @@
+.container{
+
+  /*padding: 10px;*/
+  /*display: flex;
+  flex-direction: column;*/
+  width: 100%;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.col-lg-6,.col-lg-2,.col-lg, .col-md-12{
+  padding: 0 0;
+}
+
+input{
+  padding: 12px;
+  /*width: 100%;*/
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+.top{
+  border: .5px solid lightblue;
+}
+.creditCard{
+  float: right;
+  background-color: rgb(66, 179, 245);
+  min-height: 200px;
+  border-radius: none;
+}
+.checkingBox{
+  margin-left: 2%;
+
+}
+.debitBox{
+  margin-left: 5%;
+}
+.accountType{
+  padding: 0px 0 0px 2px;
+  /*display: flex;*/
+  border: .5px solid lightblue;
+  width: auto;
+}
+
+.btn-primary, .btn {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    border-radius: 0;
+
+}
+.payButton{
+  width: auto;
+  color: #17a2b8;
+  padding: 15px 0 0 0;
+}
+
+.header{
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-style: 32px;
+}
+
+p{
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+label{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+h2, span {
+  padding: 1px 0 1px 5px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
