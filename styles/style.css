@@ -1,8 +1,11 @@
+
+body, html{
+  font-family: 'Roboto', sans-serif;
+}
+
+
 .container{
 
-  /*padding: 10px;*/
-  /*display: flex;
-  flex-direction: column;*/
   width: 100%;
   margin-top: 100px;
   margin-right: auto;
@@ -10,36 +13,82 @@
 
 }
 
-.col-lg-6,.col-lg-2,.col-lg, .col-md-12{
-  padding: 0 0;
+p{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+label{
+  padding: 0 0 0 0;
+
+}
+ span {
+  padding: 1px 0 1px 5px;
+  font-size: 12px;
 }
 
 input{
   padding: 12px;
-  /*width: 100%;*/
   border: 0;
   outline: 0;
   background: transparent;
 }
+
+.accountNumHeader{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.col-lg-6,.col-lg-12,.col-lg-2,.col-lg, .col-md-12{
+  padding: 0;
+}
+
+
 .top{
   border: .5px solid lightblue;
 }
-.creditCard{
-  float: right;
-  background-color: rgb(66, 179, 245);
-  min-height: 200px;
-  border-radius: none;
-}
-.checkingBox{
-  margin-left: 2%;
+.type{
+  width: 100%;
 
 }
-.debitBox{
+
+img{
+  height: 276px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.cardOnly{
+  display: none;
+}
+.routingNumber{
+
+}
+.requiredField{
+  display: none;
+  background-color: #f8e6e6;
+  color: #cf372c;
+
+}
+.creditCard{
+  float: right;
+  background-color: #f4f7fc;
+
+  display: flex;
+  border: .5px solid lightblue;
+  border-radius: none;
+}
+
+.checkingSelectBox{
+  margin-left: 2%;
+  font-size: 14px;
+
+}
+.debitSelectBox{
   margin-left: 5%;
 }
-.accountType{
+.paymentInfo{
   padding: 0px 0 0px 2px;
-  /*display: flex;*/
   border: .5px solid lightblue;
   width: auto;
 }
@@ -61,20 +110,4 @@ input{
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   font-style: 32px;
-}
-
-p{
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-}
-label{
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-}
-h2, span {
-  padding: 1px 0 1px 5px;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
 }

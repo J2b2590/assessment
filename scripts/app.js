@@ -1,7 +1,14 @@
 console.log("Connected")
 
 
-// $('input[type="checkbox"]').on('change', function(){
-//   $('input[type="checkbox"]').not(this).prop('checked', false);
-//   console.log(this)
-// });
+$(document).ready(function() {
+   $("input[name='accountType']").on("click", function() {
+     if (this.id == "checking") {
+       $(".checkOnly").show();
+       $(".cardOnly").hide();
+     } else {
+       $(".cardOnly").show();
+       $(".checkOnly").hide();
+     }
+   });
+ });
