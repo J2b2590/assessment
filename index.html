@@ -49,7 +49,7 @@
 
                   <div class="checkingDebit">
 
-                    <input value="checking" class="checkingSelectBox" type="radio"id="checking" name="accountType" checked>
+                    <input value="checking" class="checkingSelectBox" type="radio" id="checking" name="accountType" checked>
                     <label for="checkingSelect">Checking</label>
 
                     <input value="debit" class="debitBox" type="radio" id="debit" name="accountType">
@@ -59,14 +59,14 @@
 
               </div>
 
-            <div class="paymentInfo checkOnly routingNumber ">
+            <div class="paymentInfo checkOnly  ">
 
                 <div>
                   <label>Routing Number</label>
                 </div>
 
                 <div>
-                  <input id='routingNumber' class="type " type="password" name='routingNumber' required >
+                  <input id='routingNumber' class="type " type="password" name='routingNumber' required="true" >
                 </div>
 
                 <div class='requiredField'>
@@ -133,7 +133,7 @@
 
       <div class="row payButton">
           <div class="col-lg-2">
-            <button type="submit" class="btn btn-primary btn-block">Make Payment</button>
+            <button type="submit" name="submitPayment" class="btn btn-primary btn-block">Make Payment</button>
           </div>
       </div>
   </form>

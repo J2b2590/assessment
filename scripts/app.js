@@ -12,3 +12,16 @@ $(document).ready(function() {
      }
    });
  });
+
+
+
+  $(document).ready(function() {
+     $("button[name='submitPayment']").on("click", function() {
+      //  console.log("submit")
+       if (this.required !== false) {
+         $(".requiredField").show();
+        } else {
+         $(".requiredField").hide();
+       }
+     });
+   });
