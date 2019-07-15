@@ -20,6 +20,7 @@ p{
 
 label{
   padding: 0 0 0 0;
+  margin-left: 5px;
 
 }
  span {
@@ -57,7 +58,10 @@ img{
   margin: 0 auto;
   width: 60%;
 }
-
+.cardImg{
+  width: 80%;
+  height: 90%;
+}
 .cardOnly{
   display: none;
 }
