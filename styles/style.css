@@ -7,14 +7,13 @@ body, html{
 .container{
 
   width: 100%;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-right: auto;
   margin-left: auto;
 
 }
 
 p{
-  font-weight: bold;
   font-size: 16px;
 }
 
@@ -34,6 +33,12 @@ input{
   outline: 0;
   background: transparent;
 }
+
+.inputHeader{
+  font-weight: bold;
+  font-size: 12px;
+}
+
 
 .accountNumHeader{
   font-size: 12px;
@@ -98,8 +103,10 @@ img{
 }
 
 .btn-primary, .btn {
+    font-weight: bold;
+    font-size: 14px;
     color: #fff;
-    background-color: #17a2b8;
+    background-color: #00a39e;
     border-color: #17a2b8;
     border-radius: 0;
 
